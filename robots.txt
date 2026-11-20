@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robots.txt - Global Milarch</title>
+</head>
+<body>
+
+    <pre>
+#****************************************************************************
+# robots.txt
+#     : Robots, spiders, and search engines use this file to determine which
+#       content they should not crawl while indexing your website.
+#     : This system is called the Robots Exclusion Standard.
+#
+# Examples:
+#
+# Instruct all robots to stay out of the admin area.
+#     : User-agent: *
+#     : Disallow: /admin/
+#
+# Restrict Google and MSN from indexing your images.
+#     : User-agent: Googlebot
+#     : Disallow: /images/
+#     : User-agent: MSNBot
+#     : Disallow: /images/
+#****************************************************************************
+
+User-agent: *
+Disallow:
+    </pre>
+
+</body>
+</html>
